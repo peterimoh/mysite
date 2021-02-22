@@ -1,0 +1,252 @@
+.header-nav{
+    position: absolute;
+    /* top: 25px; */
+    right: 0;
+    left: 0;
+    z-index: 99;
+    /* background-color: #1a5340; */
+    /* background-color: transparent; */
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.header-nav .navigation .navbar{
+    position: relative;
+    padding: 0;
+}
+
+.side-menu__toggler{
+    display: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.theme-controller{
+    color: #fff;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    margin: 10px;
+}
+.big-screen{
+    margin: 0;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.navbar-brand{
+    display: block;
+
+}
+
+.logo{
+    height: 60px;
+    cursor: pointer;
+}
+
+.nav-item{
+    position: relative;
+}
+
+.nav-item a{
+    font-size: 16px;
+    font-weight: 700;
+    /* color: rgb(255, 255, 255); */
+    text-transform: capitalize;
+    position: relative;
+    transition: 0.3s;
+    line-height: 20px;
+    margin-left: 16px;
+}
+
+/* off canvas overlay  */
+.off_canvars_overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9998;
+    opacity: .5;
+    visibility: hidden;
+    cursor: crosshair;
+    background: #232323;
+    top: 0;
+}
+
+
+.dark-theme .offcanvas_menu_wrapper{
+    background-color: #010308;
+}
+
+.light-theme .offcanvas_menu_wrapper{
+     background-color: #ffc000;
+}
+
+
+.offcanvas_menu_wrapper {
+    width: 0px;
+    position: fixed;
+    /* background: #ffc000; */
+    z-index: 9999;
+    top: 0;
+    height: 100vh;
+    transition: 0.5s;
+    left: 0;
+    padding: 100px 15px 30px;
+    overflow-y: auto;
+    visibility: hidden;
+    
+}
+
+ .open {
+     /* transition: 0.5s; */
+     left: 0;
+     padding: 100px 15px 30px;
+     width: 100vw;
+     visibility: visible;
+ }
+
+ .menu-item-has-children a {
+     text-decoration: none;
+ }
+
+
+.offcanvas_main_menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.offcanvas_main_menu li{
+    position: relative;
+}
+
+.offcanvas_main_menu li:last-child{
+   margin: 0;
+}
+
+.offcanvas_main_menu a{
+   font-size: 20px;
+   color: #086142;
+   font-weight: 500;
+   text-transform: capitalize;
+   display: block;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+   border-bottom: 1px solid rgba(255, 255,255,0.1);
+   text-align: center;
+   transition: 0.3s;
+}
+
+.offcanvas_main_menu a:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.offcanvas_main_menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.offcanvas_footer{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.offcanvas_footer span a{
+ font-size: 14px;
+ font-weight: 600;
+ color: #086142;
+ transition: 0.3s;
+}
+
+.offcanvas_footer span a:hover{
+ color: #fff;
+}
+
+.canvas_close{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.canvas_close a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-align: center;
+    line-height: 34px;
+    border: 1px solid #1a5340;
+    border-radius: 50%;
+    color: #086142;
+    transition: 0.3s;
+}
+
+.dark-theme .canvas_close a{
+    color: #4ccea0;
+    border: 1px solid #4ccea0;
+;
+}
+
+
+.canvas_close:hover{
+    color: #fff;
+    border-color: #fff;
+}
+.canvas_close a:hover{
+    color: #fff;
+    border-color: #fff;
+}
+
+.close-btn{
+    margin-top: -10px;
+}
+
+.offcanvas-social{
+    margin-bottom: 40px;
+}
+
+.offcanvas-social ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.offcanvas-social li{
+    display: inline-block;
+}
+.offcanvas-social a{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    /* background-color: #010308; */
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.dark-theme .offcanvas-social a{
+    background-color: #010308;
+}
+
+.light-theme .offcanvas-social a {
+    background-color: #f1b604;
+}
+
+.offcanvas-social a:hover{
+    background: #021852;
+    color: #fff;
+}
+

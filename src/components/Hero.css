@@ -1,0 +1,78 @@
+.hero-area{
+    position: relative;
+    height: 100vh;
+}
+
+
+/* .hero-area .bg_cover{
+    background-position: center center;
+} */
+
+.hero-content{
+    padding-top: 150px;
+/* padding-bottom: 150px; */
+}
+
+.hero-content .title{
+    font-size: 60px;
+    line-height: 80px;
+    /* color: #f8fbff; */
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    padding-right: 40px;
+    /* padding-bottom: 55px; */
+}
+
+.hello{
+    font-size: 2rem;
+}
+
+.hero-content ul li{
+  margin-right: 10px;
+  
+}
+
+.hero-content .nav{
+    margin-top: 50px;
+}
+
+.hero-area .nav li a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.main-btn{
+    display: inline-block;
+    position: relative;
+vertical-align: middle;
+white-space: nowrap;
+    background-color: #f1c21c;
+    padding: 0 30px 0 30px;
+    line-height: 62.5px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    font-size: 17pxpx;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-icon{
+    margin-left: 10px;
+}
+
+.main-btn-2{
+    background-color: rgb(5, 3, 87);
+}
+
+.img-background{
+    padding: 165px;
+    text-align: right;
+    margin-top: 30%;
+    background: url('../assets/domenico-loia-hGV2TfOh0ns-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 5px solid #f1c21c;
+    
+}

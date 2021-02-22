@@ -1,0 +1,53 @@
+.about-section{
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
+
+.about{
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.about ul{
+   margin-left: -15px;
+}
+
+.about-icon{
+    color: #fff;
+    text-align: center;
+    /* margin: 10px; */
+    display: inline-block;
+    margin-right: 10px;
+    background-color: rgb(245, 205, 28);
+    padding: 2px;
+    font-size: 15px;
+    border-radius: 100%;
+
+}
+
+.avatar{
+    height: 140px;
+    border: 3px solid #fff;
+    border-radius:50%;
+}
+
+.about h2 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.about h4{
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+}
+
+.dark-theme .about h4{
+    color: #fff;
+}

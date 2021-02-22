@@ -1,0 +1,140 @@
+/* desktop  */
+@media only screen and (min-width:1600px) {
+    
+}
+
+/* laptop */
+@media only screen and (min-width:1200px) and (max-width:1600px) {
+    .img-background {
+        margin-top: 45%;
+    }
+    
+}
+
+
+/* large screen  */
+@media only screen and (min-width:992px) and (max-width:1200px){
+   .hero-img{
+       display: none;
+   }
+    .img-background {
+        margin-top: 45% !important;
+    }
+}
+
+
+/* medium - screens  */
+@media only screen and (min-width:768px) and (max-width: 991px)  {
+    .header-nav{
+        padding: 20px 0;
+    }
+    .side-menu__toggler {
+        display: block;
+        
+    }
+.navigation .navbar .navbar-colapse {
+    position: absolute;
+    top: 106%;
+    left: 0;
+    width: 100%;
+    background-color: #ffc000;
+    z-index: 8;
+    padding: 10px 10px;
+    box-shadow: 0 26px 48px 0 rgba(0, 0, 0, .15);
+}
+
+.navbar-nav{
+    margin-right: 0;
+}
+
+
+/* canvas  */
+.offcanvas_menu{
+    display: block;
+}
+
+ .img-background {
+     display: none;
+ }
+
+}
+
+/* xtra-small  */
+@media (max-width: 767px) {
+   .header-nav {
+       padding: 15px 0;
+   }
+   .side-menu__toggler {
+       display: block;      
+   }
+
+   .navigation .navbar .navbar-colapse {
+       position: absolute;
+       top: 106%;
+       left: 0;
+       width: 100%;
+       background-color: #ffc000;
+       z-index: 8;
+       padding: 10px 10px;
+       box-shadow: 0 26px 48px 0 rgba(0, 0, 0, .15);
+   }
+
+   .navbar-nav {
+       margin-right: 0;
+   }
+
+
+/* canavas  */
+.offcanvas_menu {
+    display: block;
+}
+
+ .img-background {
+     display: none;
+ }
+.eapp-whatsapp-chat-root-layout-component,
+.eapp-whatsapp-chat-root-layout-component * {
+    box-sizing: border-box !important;
+    outline: none !important;
+    right: 40px;
+    /* top: -46px; */
+}
+ 
+
+
+}
+
+
+/* small screen  */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .img-background{
+        display: none;
+    }
+   .header-content h1{
+       font-size: 10px;
+   }
+.eapp-whatsapp-chat-root-layout-component,
+.eapp-whatsapp-chat-root-layout-component * {
+    box-sizing: border-box !important;
+    outline: none !important;
+    right: 40px;
+    /* top: -46px; */
+}
+
+}
+@media only screen and (min-width: 375px) and (max-width: 575px) {
+    .img-background{
+        display: none;
+    }
+   .hero-area{
+       height: 150vh;
+   }
+
+   .eapp-whatsapp-chat-root-layout-component,
+   .eapp-whatsapp-chat-root-layout-component * {
+       box-sizing: border-box !important;
+       outline: none !important;
+       right: 40px;
+       /* top: -46px; */
+   }
+}

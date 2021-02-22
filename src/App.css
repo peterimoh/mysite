@@ -1,0 +1,125 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;500;600;700;800&display=swap');
+
+.jMfHkK{background-color: #2804ac !important;}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Montserrat Alternates',
+  sans-serif;
+}
+
+.light-theme {
+  /* background-color: rgba(255, 255, 255, 0); */
+  color: #444444;
+  transition: 1.3s;
+  webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -ms-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out;
+  opacity: 1;
+}
+
+.light-theme .header-nav{
+  background-color: rgb(4, 97, 81);
+}
+
+.light-theme .nav-item a{
+  color: #fff; 
+}
+
+.light-theme .hero-content{
+  color: #f1c21c;
+}
+.light-theme .hero-content h4{
+  color: #f5f5f5;
+}
+
+.light-theme  .hero-area{
+  background-color: rgb(4, 97, 81);
+}
+
+.light-theme .about-section h2{
+  color: rgb(5, 5, 5);
+}
+.light-theme .about-section h4{
+  color: rgb(63, 59, 59);
+}
+
+.light-theme .avatar{
+  border-color: #2f2f30;
+}
+
+.light-theme .about-icon{
+  color: #0a011f;
+}
+
+
+/* .light-theme .theme-controller{
+  color: #000;
+} */
+
+
+/* 
+.content {
+  padding: 0.5em;
+  margin: 0 auto;
+  max-width: 600px;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  height: 90vh;
+} */
+
+
+.dark-theme {
+  background-color: #0a011f;
+  color: #524747;
+  transition: 1.3s;
+  webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -ms-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out;
+  opacity: 1;
+  
+}
+
+.dark-theme .header-nav {
+  background-color: #0a011f;
+  transition: 1.3s;
+}
+.dark-theme li a{
+  color: #fff;
+}
+.dark-theme .toggle-btn{
+  color: #fff;
+}
+
+
+.dark-theme code {
+  color: red;
+}
+
+.dark-theme p{
+  color: rgb(226, 226, 226);
+}
+
+.dark-theme .title{
+  color: #f8fbff;
+}
+.dark-theme .title h4{
+  color: #f8fbff;
+}
+
+.dark-theme hr{
+  background-color: #f1c21c;
+}
+
+.dark-theme .hero-content h4 {
+  color: #cecbcb;
+}
+
